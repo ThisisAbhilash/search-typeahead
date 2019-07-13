@@ -1,4 +1,4 @@
-# search Typeahead using Vanilla JS
+# Search typeahead using Vanilla JS
 A simple search typeahead implementation, which allows navigation in filtered result using mouse and keyboard.
 The static content are rendered using **NodeJS Http Server**.
 
