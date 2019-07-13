@@ -6,7 +6,7 @@ The static content are rendered using **NodeJS Http Server**.
 ## Highlights
 - On `DOMContentLoaded`, Makes API call to `DATA_URL` to fetch search data.
 - Displays **loader**, untill We have response from Server.
-- Upon `input` in text-box, displays *scrollable* filtered results.
+- Upon `input` in text-box, callback is **debounced** for *500ms* and then displays *scrollable* filtered results.
 - Highlights *all* the **matched** text, in the filtered results.
 - Navigate the results using mouse, and *click* or press *Enter* to select the item.
 - Navigate using keyboard *up-arrow* and *down-arrow* as well, and *click* or press *Enter* to select the item.
