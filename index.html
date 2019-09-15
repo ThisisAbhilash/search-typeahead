@@ -6,10 +6,10 @@
     <link rel="stylesheet" href = "css/search.css">
     <script>
       function checkDevice() {
-        if(/android/i.test(navigator.platform)) {
+        if(/android/i.test(navigator.userAgent)) {
            alert('Mobile Web Android');
         }
-        else if(/iPad|iPhone|iPod/.test(navigator.platform)) {
+        else if(/iPad|iPhone|iPod/.test(navigator.userAgent)) {
           alert('Mobile Web iOS');
         }
         else {
